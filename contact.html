@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Gana K</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #2c3e50, #34495e, #5a5a8f);
+            color: #ffffff;
+            font-family: 'Lora', serif;
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0d2236;
+            padding: 20px;
+            position: relative;
+        }
+        header h1 {
+            color: #fdfdff;
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            margin: 0;
+        }
+        nav {
+            margin-top: 70px;
+        }
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            margin-right: 50px;
+        }
+        .content {
+            padding: 50px;
+            background-color: rgba(255, 255, 255, 0.8);
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+        }
+        h2 {
+            color: #34495e;
+            font-family: 'Lora', serif;
+        }
+        p {
+            color: #5e7f9b;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 10px;
+            color: #34495e;
+        }
+        input, textarea {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: 'Lora', serif;
+        }
+        button {
+            background-color: #f39c12;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            align-self: flex-start;
+        }
+        button:hover {
+            background-color: #e67e22;
+        }
+        footer {
+            background-color: #07020f;
+            color: #ecf0f1;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="project.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <div class="content">
+        <section class="contact-section">
+            <h2>LinkedIn/GitHub</h2>
+            <p>GANA K/kgana9727</p>
+            <h2>Get in Touch</h2>
+            <p>If you would like to reach out to me, please fill out the form below and I'll get back to you as soon as possible.</p>
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Contact Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 My Personal Weblog. All rights reserved.</p>
+    </footer>
+</body>
+</html>

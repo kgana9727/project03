@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ganak.in</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #2c3e50, #34495e, #5a5a8f);
+            color: #ffffff;
+            font-family: 'Lora', serif;
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0d2236;
+            padding: 20px;
+            position: relative;
+        }
+        header h1 {
+            color: #fdfdff;
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            margin: 0;
+        }
+        header h2 {
+            color: #f39c12;
+        }
+        nav {
+            margin-top: 70px;
+        }
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            margin-right: 50px;
+        }
+        .content {
+            padding: 50px;
+            background-color: rgba(255, 255, 255, 0.8);
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+        }
+        h2 {
+            color: #34495e;
+            font-family: 'Lora', serif;
+        }
+        p {
+            color: #5e7f9b;
+        }
+        .profile-picture {
+            position: absolute;
+            top: 50px;
+            right: 20px;
+            margin: 0;
+        }
+        .profile-picture img {
+            border-radius: 50%;
+            border: 5px solid #fd940a;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        footer {
+            background-color: #07020f;
+            color: #ecf0f1;
+            padding: 20px;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            .profile-picture img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+        @media (max-width: 480px) {
+            .profile-picture img {
+                width: 80px;
+                height: 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my Personal Weblog</h1>
+        <h2>GANA K</h2>
+        <nav>
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a href="project.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="profile-picture">
+            <img src="profilepic.jpg" alt="Profile Picture">
+        </div>
+    </header>
+    <div class="content">
+        <section class="profile-section">
+            <h2>About Me</h2>
+            <p>I am a dedicated IT professional with a Bachelor's degree in Computer Applications (BCA), specializing in DevOps and IT infrastructure management. My expertise lies in bridging the gap between development and operations to streamline software delivery processes. I have a solid foundation in computer architecture, programming, and system administration, I keep myself bleeding edge to implement effective CI/CD pipelines, automate workflows, and enhance system reliability. My passion for continuous learning drives me to stay updated with the latest tools and methodologies in the ever-evolving field of DevOps & Automation.</p>
+        </section>
+        <section class="profile-section">
+            <h2>Skills</h2>
+            <p> Programming & Scripting:
+              Languages: Python, Java, C++, JavaScript, Bash, PowerShell      Scripting: Automating tasks, writing custom scripts for DevOps tools.</p>
+              <p> Version Control:
+                Tools: Git, GitHub, GitLab
+                Skills: Branching, merging, pull requests, managing repositories.</p>
+                <p>Continuous Integration/Continuous Deployment (CI/CD):
+                  Tools: Jenkins, GitLab CI, CircleCI, Travis CI
+                  Skills: Setting up pipelines, automating testing, deployment automation</p>
+                  <p>Containerization & Orchestration:
+                    Tools: Docker, Kubernetes, OpenShift
+                    Skills: Creating and managing containers, orchestrating microservices, scaling applications.</p>
+                    <p>Cloud Computing:
+                      Platforms: AWS, Azure, Google Cloud Platform (GCP)
+                      Skills: Cloud deployment, infrastructure as code (IaC) using Terraform or CloudFormation, managing cloud resources.</p>
+                      <p>Networking & Security:
+                        Skills: Understanding of TCP/IP, DNS, firewalls, VPNs, SSL/TLS
+                        Security: Implementing best practices for securing applications and infrastructure, understanding of DevSecOps.</p>
+                        <p>Operating Systems & Virtualization:
+                          OS: Linux (especially), Windows Server
+                          Virtualization: VMware, VirtualBox, Hyper-V</p>
+                          <p> Agile & Collaboration Tools:
+                            Methodologies: Agile, Scrum, Kanban
+                            Tools: JIRA, Confluence, Trello, Slack
+                            Skills: Collaboration in cross-functional teams, sprint planning, issue tracking.</p>
+                            <p>Database Management:
+                              Databases: MySQL, PostgreSQL, MongoDB
+                              Skills: Database design, querying, performance tuning, managing backups.</p>
+                              <p>Automation Testing Tools: selenium
+                                Skills: Automating Tasks
+                              </p>
+                              <h2>Soft Skills:</h2>
+                              <p>Problem-Solving: Troubleshooting complex issues, critical thinking.</p>
+                               <p> Communication: Effective communication with teams and stakeholders.</p>
+                               <p> Time Management: Managing multiple tasks and projects efficiently.</p>
+        </section>
+        <section class="profile-section">
+            <h2>Experience</h2>
+            <p>As a recent graduate with a Bachelor's degree in Computer Applications (BCA), I have gained practical experience through various academic projects and internships. My hands-on experience includes developing web applications, scripting automation tasks, and setting up basic CI/CD pipelines. I have worked with version control systems like Git, deployed containerized applications using Docker, and explored cloud platforms like AWS for hosting and managing services. My academic journey has equipped me with a strong foundation in programming, system administration, and DevOps practices, enabling me to contribute effectively to modern IT environments.
+
+            </p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 My Personal Weblog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
